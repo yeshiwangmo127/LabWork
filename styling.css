@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: Times New Roman, Georgia, Garamond;
+    background-color: lemonchiffon;
+    line-height: 1.5;
+    color: black;
+}
+
+header{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.header-content{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.resume-header{
+    background: rgb(205, 142, 173);
+    width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    align-items: center;
+    gap: 15px;
+}
+
+.resume-header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 30px;
+}
+
+nav ul li a{
+    font-size: 1rem;
+    color: #000;
+    transition: 0.3s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover{
+    color: bisque;
+}
+
+.about{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    position: relative;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+
+pre {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#education, #projects, #contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edu, .pro {
+    text-align: left;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: cornflowerblue;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#contact .reachout {
+    text-align: center;
+}
+
+#contact .reachout p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#contact pre {
+    font-size: 1rem;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+}
+.pro img {
+    width: 100%;
+    max-width: 600px; /* Limits the image width */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centers the image */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+.social-header {
+    background-color:transparent; /* Light background color */
+    padding: 10px 20px; /* Padding for spacing */
+    text-align: center; /* Center the text */
+}
+
+.social-header a {
+    color: #0b0b0b; /* Facebook blue */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Spacing between links */
+    font-weight: bold; /* Bold text */
+}
+
+.social-header a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
